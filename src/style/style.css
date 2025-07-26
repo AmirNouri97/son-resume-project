@@ -79,11 +79,21 @@ body{
 }
 .header__title{
 font-size: 20px;
+
 }
 .header__description{
 font-size: 10px;
+padding-bottom: 8px;
+border-bottom: 2px solid var(--color-gray-light);
 }
-
+/*profile*/
+.profile{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
 /*aside*/
 .aside__section{
 display: flex;
