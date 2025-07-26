@@ -112,6 +112,9 @@ width: 100%;
 }
 /*about-me*/
 .aside__section__about-me{
+    direction: rtl;
+    line-height: 20px;
+    text-align: justify;
 
 }
 
