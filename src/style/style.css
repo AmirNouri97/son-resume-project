@@ -12,6 +12,17 @@ body{
     align-items: center;
     background-color: var(--color-gray-light);
 }
+.container{
+    width: 793px;
+    height: 1122px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 0 2px 2px var(--color-gray);
+    padding-top: 20px;
+}
 .main{
     flex-basis: 300px;
     height: inherit;
@@ -22,16 +33,7 @@ body{
     height: inherit;
     padding: 64px 0 64px 16px;
 }
-.container{
-    width: 793px;
-    height: 1122px;
-    background-color: var(--color-white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    box-shadow: 0 0 2px 2px var(--color-gray);
-}
+/*header*/
 .Header__image__container{
     width: 80px;
     height: 80px;
@@ -47,4 +49,35 @@ font-size: 20px;
 }
 .header__description{
 font-size: 10px;
+}
+
+/*aside*/
+.aside__section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 32px;
+}
+.aside__section__title{
+background-color: var(--color-green-light);
+font-size: 16px;
+color: var(--color-white);
+border-radius: 0 30px 0 30px;
+justify-self: center;
+padding: 16px 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 300px;
+}
+.aside__section__content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/*about-me*/
+.aside__section__about-me{
+
 }
