@@ -112,6 +112,8 @@ align-items: center;
 }
 /*about-me*/
 .aside__section__about-me{
-    
+    direction: rtl;
+    line-height: 20px;
+    text-align: justify;
 
 }
