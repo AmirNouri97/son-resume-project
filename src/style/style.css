@@ -275,3 +275,53 @@ font-size: 12px;
     text-align: center;
     padding: 2px 0;
 }
+/*call information*/
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    direction: rtl;
+    column-gap: 16px;
+    width: 100%;
+}
+.main__section__contact-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+
+}
+.contact-information__img{
+    width: 24px;
+    height: 24px;
+    background-color: var(--color-green-light);
+    border-radius: 20px 0 20px 0 ;
+    padding: 4px 12px;
+}
+.contact-information__email a{
+color: var(--color-gray);
+    font-size: 14px;
+}
+.contact-information__tell a{
+color: var(--color-gray);
+    font-size: 14px;
+}
+.contact-information__address{
+color: var(--color-gray);
+    font-size: 14px;
+}
+.contact-information__links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-information__link a{
+color: var(--color-green-light);
+    font-size: 16px;
+}
+.contact-information__link img{
+    width: 32px;
+    height: 32px;
+}
