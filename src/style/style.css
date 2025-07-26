@@ -1,3 +1,11 @@
+:root{
+    --color-white:#fff;
+    --color-black:#000;
+    --color-gray:#676767;
+    --color-gray-light:#c5c5c5;
+    --color-green-dark:#00aa9d;
+    --color-green-light:#00beb0;
+}
 body{
     display: flex;
     justify-content: center;
