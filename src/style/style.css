@@ -91,6 +91,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 gap: 32px;
+padding-bottom: 48px;
 }
 .aside__section__title{
 background-color: var(--color-green-light);
@@ -192,8 +193,8 @@ content: "";
 height: 8px;
 background-color: var(--color-white);
 width: 8px;
-top: 0px;
-right: -17px;
+top: 2px;
+right: -15px;
 border-radius: 50%;
 }
 .portfolio__desc{
