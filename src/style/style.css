@@ -40,8 +40,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-gray-light);
-    font-family: "Vazir";
+    row-gap: 16px;
+    background-color: var(--color-white);
+   
 }
 .container{
     width: 793px;
@@ -52,7 +53,8 @@ body{
     align-items: center;
     gap: 16px;
     box-shadow: 0 0 2px 2px var(--color-gray);
-    padding-top: 20px;
+    padding-top: 120px; 
+    margin-top: 10px;
 }
 .main{
     flex-basis: 300px;
