@@ -222,3 +222,56 @@ width: 24px;
     align-items: center;
     column-gap: 16px;
 }
+/*education*/
+.main__section{
+    padding: 20px;
+}
+.main__section__title{
+    font-family: 'Vazir-bold';
+    color: var(--color-green-dark);
+    text-align: center;
+    border-bottom: 2px solid var(--color-gray-light);
+    padding-bottom: 6px;
+}
+.main__section__content{
+    padding-top: 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+.main__section__education{
+    direction: rtl;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+row-gap: 16px;
+}
+.education__title{
+color: var(--color-gray);
+font-size: 16px;
+}
+.education__university{
+color: var(--color-gray);
+font-size: 12px;
+    padding-right: 16px;
+}
+.education__city{
+color: var(--color-gray);
+font-size: 12px;
+    padding-right: 16px;
+}
+.education__duration{
+color: var(--color-green-light);
+font-size: 12px;
+    padding-right: 16px;
+}
+.education__university span{
+    border: 1px solid var(--color-green-light);
+    border-radius: 20px 0 20px 0;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    padding: 2px 0;
+}
