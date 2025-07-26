@@ -10,13 +10,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-gray-light);
 }
 .container{
     width: 793px;
     height: 1122px;
+    background-color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 2px 2px var(--color-gray);
 }
 .Header__image__container{
     width: 80px;
