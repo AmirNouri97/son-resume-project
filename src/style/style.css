@@ -484,3 +484,6 @@ background: var(--color-white);
 .avr-50{
     background: conic-gradient(var(--color-green-light) 0% 50%, var(--color-white) 50% 100%);
 }
+.avr-35{
+    background: conic-gradient(var(--color-green-light) 0% 35%, var(--color-white) 35% 100%);
+}
