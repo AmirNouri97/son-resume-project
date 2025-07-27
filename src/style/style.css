@@ -68,9 +68,15 @@ body{
 }
 /*header*/
 .Header__image__container{
-    width: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 100px;
     border-radius: 50%;
+    border: 6px solid var(--color-green-light);
+    padding: 1px;
+    
 }
 .header__image{
     border-radius: 50%;
@@ -78,13 +84,14 @@ body{
     height: 100%;
 }
 .header__title{
-font-size: 20px;
+font-size: 22px;
+font-family: "Vazir-bold";
 
 }
 .header__description{
-font-size: 10px;
+font-size: 14px;
 padding-bottom: 8px;
-border-bottom: 2px solid var(--color-gray-light);
+color: var(--color-gray);
 }
 /*profile*/
 .profile{
@@ -105,6 +112,7 @@ padding-bottom: 48px;
 }
 .aside__section__title{
 background-color: var(--color-green-light);
+filter: drop-shadow(4px 4px 2px #c5c5c5);
 font-size: 16px;
 color: var(--color-white);
 border-radius: 0 30px 0 30px;
