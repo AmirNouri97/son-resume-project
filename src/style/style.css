@@ -40,9 +40,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    row-gap: 16px;
     background-color: var(--color-white);
-    padding-top: 100px !important;
+    padding-top: 50px !important;
    
 }
 .wrapper{
