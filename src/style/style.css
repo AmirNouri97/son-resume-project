@@ -55,6 +55,7 @@ body{
     min-height: 1022px;
     background-color: var(--color-white);
     box-shadow: 0 0 2px 2px var(--color-gray);
+    animation: shadowPulse 3s infinite ease-in-out ;
 
 }
 .container--1{
@@ -486,4 +487,17 @@ background: var(--color-white);
 }
 .avr-35{
     background: conic-gradient(var(--color-green-light) 0% 35%, var(--color-white) 35% 100%);
+}
+
+/*shadow pulse */
+@keyframes shadowPulse {
+    0% {
+    box-shadow: 0 0 8px 4px var(--color-green-dark);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px var(--color-green-light);
+  }
+  100% {
+    box-shadow: 0 0 8px 4px var(--color-green-dark);
+  }
 }
