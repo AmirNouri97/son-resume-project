@@ -305,7 +305,7 @@ color: var(--color-gray);
 font-size: 12px;
 }
 .portfolio__technologies__image img{
-width: 24px;
+width: 28px;
 }
 .portfolio__link a{
      color: var(--color-green-light);
@@ -415,8 +415,8 @@ color: var(--color-green-light);
     font-size: 16px;
 }
 .contact-information__link img{
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
 }
 /*skills*/
 .main__section__skills{
