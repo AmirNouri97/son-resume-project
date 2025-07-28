@@ -45,6 +45,9 @@ body{
     padding-bottom: 50px !important;
    
 }
+span{
+    filter: drop-shadow(3px 3px 1px #c5c5c5);
+}
 .wrapper{
     position: relative;
     display: flex;
@@ -91,11 +94,12 @@ body{
     flex-basis: 300px;
     height: inherit;
     padding: 0 16px 32px 0;
+    position: relative;
 }
 .aside{
     flex-basis: 493px;
     height: inherit;
-    padding: 0 0 64px 16px;
+    padding: 32px 0 64px 16px;
 }
 
 
@@ -133,8 +137,8 @@ border-bottom: 2px solid var(--color-gray-light);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
-    height: 100px;
+    width: 120px;
+    height: 130px;
     border-radius: 50%;
     border: 6px solid var(--color-green-light);
     padding: 1px;
@@ -362,7 +366,7 @@ font-size: 12px;
     display: inline-block;
     width: 70%;
     text-align: center;
-    padding: 4px 0;
+    padding: 6px 0;
 }
 /*call information*/
 .d-flex{
@@ -471,6 +475,7 @@ width: 28px;
 font-size: 12px;
 background: var(--color-white);
   border-radius: 50%;
+  color:var(--color-gray)
 }
 /*portfolio-demo*/
 .portfolio__demo{
@@ -494,24 +499,44 @@ background: var(--color-white);
 .portfolio__demo:hover{
 transform: scale(1.1);    
 }
+
+/*resume__update__date*/
+.resume__update__date{
+    direction: rtl;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+.resume__update__date--text,.resume__update__date--time{
+    color: var(--color-gray);
+}
+
 /*progress helper*/
+.avr-80{
+    background: conic-gradient(var(--color-green-light) 0% 80%, var(--color-white) 80% 100%);
+}
 .avr-70{
     background: conic-gradient(var(--color-green-light) 0% 70%, var(--color-white) 70% 100%);
 }
 .avr-60{
     background: conic-gradient(var(--color-green-light) 0% 60%, var(--color-white) 60% 100%);
 }
-.avr-20{
-    background: conic-gradient(var(--color-green-light) 0% 20%, var(--color-white) 20% 100%);
-}
-.avr-80{
-    background: conic-gradient(var(--color-green-light) 0% 80%, var(--color-white) 80% 100%);
-}
 .avr-50{
     background: conic-gradient(var(--color-green-light) 0% 50%, var(--color-white) 50% 100%);
 }
+.avr-45{
+    background: conic-gradient(var(--color-green-light) 0% 45%, var(--color-white) 45% 100%);
+}
 .avr-35{
     background: conic-gradient(var(--color-green-light) 0% 35%, var(--color-white) 35% 100%);
+}
+.avr-20{
+    background: conic-gradient(var(--color-green-light) 0% 20%, var(--color-white) 20% 100%);
 }
 
 /*shadow pulse */
