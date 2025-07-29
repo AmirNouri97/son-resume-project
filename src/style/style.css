@@ -27,8 +27,10 @@
 }
 :root{
     --color-white:#fff;
+    --color-white-100:#f0f0f0;
     --color-black:#000;
     --color-gray:#676767;
+    --color-gray-dark:#333;
     --color-gray-light:#c5c5c5;
     --color-green-dark:#00aa9d;
     --color-green-light:#00beb0;
@@ -46,7 +48,7 @@ body{
    
 }
 span{
-    filter: drop-shadow(3px 3px 1px #c5c5c5);
+    filter: drop-shadow(3px 3px 1px var(--color-gray-light));
 }
 .wrapper{
     position: relative;
@@ -54,7 +56,7 @@ span{
     padding-top: 80px;
     align-items: center;
     justify-content: center;
-    width: 900px;
+    width: 1000px;
     /* height: 1122px; */
     min-height: 1022px;
     background-color: var(--color-white);
@@ -74,7 +76,7 @@ span{
     max-height: auto;
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 72px;
 }
 /*header__design*/
 .header__design{
@@ -184,7 +186,7 @@ padding-bottom: 48px;
 }
 .aside__section__title{
 background-color: var(--color-green-light);
-filter: drop-shadow(4px 4px 2px #c5c5c5);
+filter: drop-shadow(4px 4px 2px var(--color-gray-light));
 font-size: 16px;
 color: var(--color-white);
 border-radius: 0 30px 0 30px;
@@ -460,7 +462,7 @@ width: 100%;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  color: #333;
+  color: var(--color-gray-dark);
   font-weight: bold;
   border: 1px solid var(--color-gray-light);
 }
@@ -509,7 +511,7 @@ border-radius: 50%;
 .portfolio__demo{
       padding: 10px;
       border-radius: 16px;
-      background: #f0f0f0;
+      background: var(--color-white-100);
       box-shadow: 
         inset 5px 5px 10px var(--color-gray-light),
         inset -5px -5px 10px var(--color-white);
@@ -532,13 +534,13 @@ transform: scale(1.1);
 .resume__update__date{
     direction: rtl;
     position: absolute;
-    bottom: 4%;
-    right: 0;
+    bottom: 5%;
+    right: 0%;
+    width: 100%;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 12px;
 }
 .resume__update__date--text,.resume__update__date--time{
     color: var(--color-gray);
